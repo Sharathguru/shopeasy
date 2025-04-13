@@ -5,7 +5,7 @@ const PORT =process.env.PORT || 3000;
 
 
 app.get("/",(req,res,next)=>{
-    res.send("welcome to shopEasy from JVLcode!")
+    res.send("welcome to shopEasy from JVLco!")
 })
 
 let server=app.listen(PORT,()=>{
